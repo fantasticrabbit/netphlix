@@ -78,6 +78,14 @@ img {
     z-index: 2;
 }
 
+.showcase-lang {
+    position: absolute;
+    top: 50%;
+    right: 7rem;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
 .showcase-content {
     position: relative;
     margin: auto;
@@ -138,6 +146,28 @@ img {
 
 
 /* Buttons */
+
+select {
+    box-sizing: border-box;
+    line-height: 1.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: .5rem 1.375rem;
+    background: rgba(0,0,0, 0.4);
+    color: #fff;
+    font-size: .875rem;
+    text-indent: 0;
+    appearance: none;
+    border-radius: 2px;
+    width: auto;
+    text-transform: none;
+    -webkit-rtl-ordering: logical;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+}
+
 .btn {
     display: inline-block;
     background: var(--primary-color);
@@ -174,4 +204,11 @@ img {
 .btn-lg {
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
+}
+
+.select:hover {
+    box-shadow: 1px 0px 1px 1px rgba(91, 162, 244, 0.519), 
+    -1px 0px 1px 1px rgba(91, 162, 244, 0.519),
+    0px 1px 1px 1px rgba(91, 162, 244, 0.519),
+    0px -1px 1px 1px rgba(91, 162, 244, 0.519);
 }
